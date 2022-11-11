@@ -9,6 +9,7 @@ struct VSOutput
 {
 	float4 pos : POSITION; // 頂点座標
 	
+	float scale : TEXCOORD;//スケール
 };
 
 //ジオメトリシェーダからピクセルシェーダへの出力
