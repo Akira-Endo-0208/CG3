@@ -43,7 +43,6 @@ void GameScene::Initialize(DirectXCommon* dxCommon, Input* input)
 	// 3Dオブジェクト生成
 	particleManage = ParticleManager::Create();
 	particleManage->Update();
-
 	
 }
 
